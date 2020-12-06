@@ -23,9 +23,15 @@ const parentList = [
   },
 ]
 
+
+
 function renderParentList(list){
   console.log(list);
-}
+
+  var lista  = document.getElementById("lista").innerHTML;
+  lista = lista +"<li>"name +é pai de+ children"</li>";
+  document.getElementById("lista").innerHTML = lista;
+  }
 
 renderParentList(parentList)
 
